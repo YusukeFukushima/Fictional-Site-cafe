@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /* 全体 */
 
 *{
@@ -125,6 +127,7 @@ header{
 .top-logo h2::after{
   content: "ほっと一息つける時間を。";
   font-size: 30px;
+  font-family: 'Kosugi Maru', sans-serif;
   color: inherit;
   display: block;
 }
