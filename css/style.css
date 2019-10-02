@@ -20,6 +20,11 @@ a{
   font-family: 'Satisfy', cursive;
 }
 
+.flexbox{
+  display: flex;
+  justify-content: space-around;
+}
+
 /* ヘッダー */
 
 header{
@@ -164,19 +169,7 @@ header{
   top: 50%;
   left: 200px;
   transform: translate(0, -50%);
-  /* animation: fade-from-under 1s linear 0s; */
 }
-
-/* @keyframes fade-from-under{
-  0% {
-    opacity: 0;
-    transform: scale(.5);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
-} */
 
 .concept-box .section-title{
   position: absolute;
@@ -212,4 +205,28 @@ header{
 .news-list li a:hover span{
   color: rgb(135, 238, 200);
   transition: .5s;
+}
+
+#menu{
+  background: rgb(135, 238,200);
+  height: 450px;
+  text-align: center;
+}
+
+#menu .section-title{
+  padding: 30px 0;
+}
+
+#menu .flexbox{
+  height: 300px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.menu-slide{
+  width: 40%;
+}
+
+.menu-comment{
+  width: 40%;
 }
